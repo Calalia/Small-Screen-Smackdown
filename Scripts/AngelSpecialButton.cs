@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using Photon.Realtime;
 using Photon.Pun;
 
+//This Script is attached to the ui element that acts as the angels skill button
 public class AngelSpecialButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public GameObject player=null;
